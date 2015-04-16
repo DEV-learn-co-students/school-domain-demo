@@ -11,9 +11,9 @@ class School
     roster[grade] << student_name
   end
 
-  def grade(student_grade)
-    roster[student_grade]
-  end
+  # def grade(student_grade)
+  #   roster[student_grade]
+  # end
 
   # this method should arrange the students in each grade by alphabetical order
   def sort
